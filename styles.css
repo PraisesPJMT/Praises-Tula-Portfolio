@@ -40,14 +40,13 @@ a.button {
 
 /* HEADER STYLES */
 header {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  width: 320px;
+  background: url("images/image_geometry_1.svg") no-repeat;
+  height: 75px;
 }
 
 .menu-icon {
   margin: 19px;
+  float: right;
 }
 
 .headline {
