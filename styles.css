@@ -1,0 +1,23 @@
+/* GENERIC STYLES */
+* {
+  margin: 0;
+  padding: none;
+}
+
+body {
+  background-color: #fff;
+  width: 320px;
+  margin: auto;
+}
+
+/* HEADER STYLES */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 320px;
+}
+
+.menu-icon {
+  margin: 19px;
+}
