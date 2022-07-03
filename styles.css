@@ -46,13 +46,15 @@ h3 {
 }
 
 a.button,
-.about-list {
+.about-list,
+.ft-get-resume {
   font-size: 16px;
   font-weight: 600;
 }
 
 .about-list-heading,
-.about-list {
+.about-list,
+.social-network-icon {
   color: #fff;
 }
 
@@ -60,6 +62,11 @@ a.button,
   font-weight: 800;
   font-size: 18px;
   padding: 50px 0 20px 50px;
+}
+
+.fa-brands,
+.fa-arrow-up-right-from-square {
+  font-size: 24px;
 }
 
 /* HEADER STYLES */
@@ -78,6 +85,34 @@ header {
   background: url("images/image-geometry_1.svg") 0 400px no-repeat;
   height: 560px;
   background-size: 100%;
+}
+
+/* FOOTER STYLES */
+footer,
+.ft-get-resume,
+.social-networks {
+  display: flex;
+}
+
+footer {
+  background: #1a2236;
+  height: 100px;
+  padding: 20px;
+  margin-top: 50px;
+  gap: 30px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.ft-get-resume {
+  align-items: center;
+  color: #92dcdc;
+  gap: 20px;
+}
+
+.social-networks {
+  align-items: center;
+  justify-content: space-between;
 }
 
 /* PROJECTS STYLES */
@@ -195,4 +230,8 @@ header {
   border: 1px #fff solid;
   width: 178px;
   margin: 20px auto 0 0;
+}
+
+.ft-get-resume:hover {
+  color: #fff;
 }
