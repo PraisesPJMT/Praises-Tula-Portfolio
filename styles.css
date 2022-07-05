@@ -47,7 +47,8 @@ h3 {
 
 a.button,
 .about-list,
-.ft-get-resume {
+.ft-get-resume,
+button {
   font-size: 16px;
   font-weight: 600;
 }
@@ -67,6 +68,11 @@ a.button,
 .fa-brands,
 .fa-arrow-up-right-from-square {
   font-size: 24px;
+}
+input,
+textarea {
+  font-size: 14px;
+  font-weight: 400;
 }
 
 /* HEADER STYLES */
@@ -195,6 +201,39 @@ footer {
   margin-left: 30px;
 }
 
+/* CONTACT FORM */
+.contact-form-background {
+  background: url("images/image-geometry_6.svg") no-repeat;
+  background-size: 35.5%;
+  height: 75px;
+
+}
+
+.contact-header {
+  margin-top: 10%;
+}
+
+.contact-form-container {
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+}
+input {
+  height: 52px;
+}
+
+input,
+textarea {
+  width: 250px;
+  border-radius: 5px;
+  border: 1px solid #DFdFE0;
+  margin: 8px 0;
+  padding: 0 18px;
+}
+
+textarea {
+  padding-top: 18px;
+}
 /* BUTTONS */
 .dark-button {
   display: block;
@@ -234,4 +273,8 @@ footer {
 
 .ft-get-resume:hover {
   color: #fff;
+}
+
+.contact-button {
+  width: 100%;
 }
