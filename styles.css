@@ -6,7 +6,6 @@
 
 body {
   background-color: #fff;
-  width: 320px;
   margin: auto;
 }
 
@@ -35,7 +34,9 @@ a,
 h3,
 .language,
 .about-list,
-.about-list-heading {
+.about-list-heading,
+input,
+textarea {
   font-family: 'Poppins', sans-serif;
   font-size: 14px;
 }
@@ -47,7 +48,8 @@ h3 {
 
 a.button,
 .about-list,
-.ft-get-resume {
+.ft-get-resume,
+button {
   font-size: 16px;
   font-weight: 600;
 }
@@ -71,9 +73,9 @@ a.button,
 
 /* HEADER STYLES */
 header {
-  background: url("images/image-geometry_6.svg") no-repeat;
+  background: url("images/image_geometry_1.svg") no-repeat;
   background-size: 35.5%;
-  height: 75px;
+  height: 100px;
 }
 
 .menu-icon {
@@ -82,44 +84,28 @@ header {
 }
 
 .headline {
-  background: url("images/image-geometry_1.svg") 0 400px no-repeat;
-  height: 560px;
+  background: url("images/image_geometry_2.svg") 0 400px no-repeat;
+  height: 610px;
   background-size: 100%;
 }
 
-/* FOOTER STYLES */
-footer,
-.ft-get-resume,
-.social-networks {
-  display: flex;
-}
-
-footer {
-  background: #1a2236;
-  height: 100px;
-  padding: 20px;
-  margin-top: 50px;
-  gap: 30px;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.ft-get-resume {
-  align-items: center;
-  color: #92dcdc;
-  gap: 20px;
-}
-
-.social-networks {
-  align-items: center;
-  justify-content: space-between;
+.headline-container {
+  padding: 0 16px;
 }
 
 /* PROJECTS STYLES */
 .project-box {
   background-color: #1a2236;
   padding: 20px;
-  margin: 0;
+  margin: 0 auto;
+}
+
+.sub-heading {
+  padding-left: 16px;
+}
+
+.project-image {
+  width: 100%;
 }
 
 .project-name {
@@ -163,8 +149,8 @@ footer {
 .about-framework,
 .about-skills {
   margin: auto;
-  width: 289px;
-  height: 289px;
+  width: 100%;
+  height: 300px;
 }
 
 .about-lang-color {
@@ -193,6 +179,85 @@ footer {
 
 .about-list {
   margin-left: 30px;
+}
+
+/* CONTACT FORM STYLES */
+.contact-form {
+  background: #f9f9fa;
+}
+
+.contact-form-background {
+  background: url("images/image_geometry_1.svg") no-repeat;
+  background-size: 35.5%;
+  height: 100px;
+}
+
+.contact-form-container {
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  margin-top: 32px;
+}
+
+input,
+textarea {
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 1px solid #dfdfe0;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+input {
+  height: 52px;
+  padding: 0 16px;
+}
+
+textarea {
+  padding: 16px;
+  height: 112px;
+}
+
+input:valid,
+textarea:valid {
+  border: 2px solid #0f0;
+}
+
+/* FOOTER STYLES */
+footer {
+  margin-top: 50px;
+}
+
+.footer,
+.ft-get-resume,
+.social-networks {
+  display: flex;
+}
+
+.footer {
+  background: #1a2236;
+  height: 100px;
+  padding: 20px;
+  gap: 30px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.ft-get-resume {
+  align-items: center;
+  color: #92dcdc;
+  gap: 20px;
+}
+
+.social-networks {
+  align-items: center;
+  justify-content: space-between;
 }
 
 /* BUTTONS */
@@ -234,4 +299,8 @@ footer {
 
 .ft-get-resume:hover {
   color: #fff;
+}
+
+.contact-button {
+  width: 100%;
 }
