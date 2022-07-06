@@ -37,6 +37,18 @@ Here is the list of projects leading to the development of the project. In some 
 - Twitter: [@praisespjmt](https://twitter.com/PraisesPJMT)
 - LinkedIn: [Praises Musa Tula](https://www.linkedin.com/in/praises-tula-9233aa76)
 
+👤 **Sharon Kessio: Contributor**
+
+- GitHub: [@kessio](https://github.com/kessio)
+- Twitter: [@kessio_sharon](https://twitter.com/kessio_sharon)
+- LinkedIn: [sharon-kessio](https://www.linkedin.com/in/sharon-kessio-172220b5)
+
+👤 **Ronald Mjonono: Contributor**
+
+- GitHub: [@mj-e-boc](https://github.com/mj-e-boc)
+- Twitter: [@mjononoronald](https://twitter.com/Mjononoronald)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/ronald-mjonono-86365988)
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!

@@ -20,16 +20,17 @@
     <main>
         <!-- HEADLINE SECTION -->
         <section class="headline">
-            <h1>Praises<br />Tula</h1>
-            <p>
-                Hello! I am a software developer! I can help you build a product, feature or website. Taka a look of my works.If you like what you see and have a project you need coded, don’t hesitate and contact me.
-            </p>
-            <a href="#" class="button dark-button start-collaboration">Start Collaboration</a
-        >
+            <div class="headline-container">
+                <h1>Praises<br />Tula</h1>
+                <p>
+                    Hello! I am a software developer! I can help you build a product, feature or website. Taka a look of my works.If you like what you see and have a project you need coded, don’t hesitate and contact me.
+                </p>
+                <a href="#" class="button dark-button start-collaboration">Start Collaboration</a>
+            </div>
       </section>
       <!-- PROJECT SECTION -->
       <section class="projects">
-        <h2>Projects</h2>
+        <h2 class="sub-heading" >Projects</h2>
         <!-- Project 01 -->
         <section class="project">
           <img
@@ -170,8 +171,10 @@
                 </div>
             </div>
         </section>
-        <!-- CONTACT FORM -->
-        <section class="contact-form">
+    </main>
+    <footer>
+           <!-- CONTACT FORM -->
+           <section class="contact-form">
             <div class="contact-form-background"></div>
             <div class="contact-form-container">
                 <h2 class="contact-header">Get started</h2>
@@ -179,32 +182,33 @@
                     I am interested in remote & freelance opportunities - especially ambitious or large projects. However, if you have other request or question, don't hesitate to use the form.
                 </p>
                 <form action="https://formspree.io/f/xlezygjj" method="POST">
-                    <input type="text" placeholder="Your name" maxlength="30" required="required" />
-                    <input type="email" placeholder="Your email" required="required" />
-                    <textarea id="message" cols="30" rows="10" maxlength="500" required="required" placeholder="Enter your message here..."></textarea>
+                    <input name="name" id="name" type="text" placeholder="Your name" maxlength="30" required/>
+                    <input name="email" id="email" type="email" placeholder="Your email" required/>
+                    <textarea id="message" cols="30" rows="10" maxlength="500" placeholder="Enter your message here..." required></textarea>
                     <button type="submit" class="button dark-button contact-button">Start collaboration</button>
                 </form>
             </div>
         </section>
-    </main>
-    <footer>
-        <div class="get-resume">
-            <a href="#" class="ft-get-resume">Get my Resume <i class="fa-solid fa-arrow-up-right-from-square"></i
-        ></a>
-        </div>
-        <div class="social-networks">
-            <a href="#" class="social-network-icon"><i class="fa-brands fa-stack-overflow"></i
-        ></a>
-            <a href="#" class="social-network-icon"><i class="fa-brands fa-github"></i
-        ></a>
-            <a href="#" class="social-network-icon"><i class="fa-brands fa-twitter"></i
-        ></a>
-            <a href="#" class="social-network-icon"><i class="fa-brands fa-linkedin"></i
-        ></a>
-            <a href="#" class="social-network-icon"><i class="fa-brands fa-facebook-f"></i
-        ></a>
-            <a href="#" class="social-network-icon"><i class="fa-brands fa-instagram"></i
-        ></a>
+        <!-- FOOTER SECTION -->
+        <div class="footer">
+            <div class="get-resume">
+                <a href="#" class="ft-get-resume">Get my Resume <i class="fa-solid fa-arrow-up-right-from-square"></i
+            ></a>
+            </div>
+            <div class="social-networks">
+                <a href="#" class="social-network-icon"><i class="fa-brands fa-stack-overflow"></i
+            ></a>
+                <a href="#" class="social-network-icon"><i class="fa-brands fa-github"></i
+            ></a>
+                <a href="#" class="social-network-icon"><i class="fa-brands fa-twitter"></i
+            ></a>
+                <a href="#" class="social-network-icon"><i class="fa-brands fa-linkedin"></i
+            ></a>
+                <a href="#" class="social-network-icon"><i class="fa-brands fa-facebook-f"></i
+            ></a>
+                <a href="#" class="social-network-icon"><i class="fa-brands fa-instagram"></i
+            ></a>
+            </div>
         </div>
     </footer>
 </body>
