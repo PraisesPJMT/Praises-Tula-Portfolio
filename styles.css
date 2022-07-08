@@ -1,4 +1,5 @@
 /* GENERIC STYLES */
+
 * {
   margin: 0;
   padding: none;
@@ -22,9 +23,10 @@ a {
 }
 
 /* TYPOGRAPHY */
+
 h1,
 h2 {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-size: 50px;
   font-weight: 100;
   margin-bottom: 20px;
@@ -39,7 +41,7 @@ h3,
 input,
 textarea,
 label {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 14px;
 }
 
@@ -79,6 +81,7 @@ nav a {
 }
 
 /* HEADER STYLES */
+
 header {
   background: url("images/image_geometry_1.svg") no-repeat;
   background-size: 35.5%;
@@ -101,6 +104,7 @@ header {
 }
 
 /* PROJECTS STYLES */
+
 .project-box {
   background-color: #1a2236;
   padding: 20px;
@@ -139,6 +143,7 @@ header {
 }
 
 /* ABOUT STYLES */
+
 .about {
   padding: 0 16px;
 }
@@ -189,6 +194,7 @@ header {
 }
 
 /* CONTACT FORM STYLES */
+
 .contact-form {
   background: #f9f9fa;
 }
@@ -241,6 +247,7 @@ textarea:valid {
 }
 
 /* FOOTER STYLES */
+
 footer {
   margin-top: 50px;
 }
@@ -272,6 +279,7 @@ footer {
 }
 
 /* BUTTONS */
+
 .dark-button {
   display: block;
   background-color: #1a2236;
@@ -338,10 +346,29 @@ footer {
 
   nav a {
     visibility: visible;
+    animation-duration: 2s;
+    animation-name: slidein;
+    animation-direction: slidein;
   }
 
   nav a:hover {
     border-bottom: 2px solid #1a2236;
+  }
+
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+    }
+
+    to {
+      margin-left: 0%;
+    }
+  }
+
+  .project-image:hover {
+    transition-delay: 1s;
+    transform-style: flat;
+    transform: scale(1.1);
   }
 
   .menu-icon {
@@ -379,20 +406,28 @@ footer {
     display: grid;
     width: 100%;
     background: none;
-    grid-template-areas:
-      ". . . p1 p1 p1 p1 p1"
-      ". . . p1 p1 p1 p1 p1"
-      "p2 p2 . . . . p5 p5"
-      "p3 p3 p3 p3 p3 . p5 p5"
-      "p3 p3 p3 p3 p3 . . ."
-      ". . . . . p4 p4 .";
+    grid-template-areas: ". . . p1 p1 p1 p1 p1" ". . . p1 p1 p1 p1 p1" "p2 p2 . . . . p5 p5" "p3 p3 p3 p3 p3 . p5 p5" "p3 p3 p3 p3 p3 . . ." ". . . . . p4 p4 .";
   }
 
-  .p1 { grid-area: p1; }
-  .p2 { grid-area: p2; }
-  .p3 { grid-area: p3; }
-  .p4 { grid-area: p4; }
-  .p6 { grid-area: p6; }
+  .p1 {
+    grid-area: p1;
+  }
+
+  .p2 {
+    grid-area: p2;
+  }
+
+  .p3 {
+    grid-area: p3;
+  }
+
+  .p4 {
+    grid-area: p4;
+  }
+
+  .p6 {
+    grid-area: p6;
+  }
 
   .p5 {
     display: flex;
@@ -532,5 +567,9 @@ footer {
     width: 120px;
     margin: 0;
     justify-content: space-between;
+  }
+
+  .button:hover {
+    transition: all 0.5s ease-in-out;
   }
 }
