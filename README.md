@@ -8,6 +8,19 @@ Microverse curriculum materials requires the completion of several small project
 
 ## Template Choice
 [Template 5](https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?node-id=23%3A9) 
+
+## GitHub Pages Deployment
+During the Microverse program, I learned about different deployment tools. In Project 5, I learnt about deployment with GitHub Pages, a simple but powerful way to deploy your application. Its main advantages are:
+- It's free
+- It's easy and fast to start
+- It's totally integrated with GitHub
+- Works perfectly with small and static applications
+- It has integration with a lot of tools<br>
+
+**Upon successful deployment of the Portfolio Project on GitHub Pages, the following link can be used to view the life portfolio site.**
+
+[Praises Tula](https://praisespjmt.github.io/Praises-Tula/) <br>
+URL Link: [https://praisespjmt.github.io/Praises-Tula/](https://praisespjmt.github.io/Praises-Tula/)
 ## Built With
 
 - HTML
@@ -21,7 +34,7 @@ Here is the list of projects leading to the development of the project. In some 
 - Project 2: Mobile version
 - Project 3: Contact form (pair programming)
 - Project 4: Desktop version
-- Project 5: Application deploy
+- Project 5: [Application deploy](https://praisespjmt.github.io/Praises-Tula/)
 - Project 6: Evaluate accessibility (pair programming)
 - Project 7: Mobile menu (pair programming)
 - Project 8: Details modal (pair programming)
