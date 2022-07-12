@@ -232,18 +232,37 @@ textarea {
 }
 
 input {
+  width: 100%;
   height: 52px;
   padding: 0 16px;
 }
 
 textarea {
   padding: 16px;
+  width: 100%;
   height: 112px;
 }
 
 input:valid,
 textarea:valid {
   border: 2px solid #0f0;
+}
+
+label {
+  display: none;
+}
+
+.input {
+  display: block;
+}
+
+.name,
+.email {
+  width: 100%;
+}
+
+.name {
+  margin-bottom: 20px;
 }
 
 /* FOOTER STYLES */
@@ -329,6 +348,21 @@ footer {
 /* Desktop Version */
 
 @media (min-width: 768px) {
+  /* TYPOGRAPHY */
+
+  p,
+  a,
+  h3,
+  .language,
+  .about-list,
+  .about-list-heading,
+  input,
+  textarea,
+  label,
+  .button {
+    font-size: 18px;
+  }
+
   /* HEADER SECTION */
   header {
     box-shadow: 0 0.5px 0 #dddfe6;
@@ -491,28 +525,46 @@ footer {
   }
 
   form {
-    display: inline;
+    display: flex;
     margin-top: 42px 0;
   }
 
   input {
-    width: 48%;
+    width: 100%;
     height: 60px;
-    margin-bottom: 42px;
   }
 
-  #name {
-    float: left;
+  .input {
+    display: flex;
+    justify-content: space-between;
   }
 
-  #email {
-    float: right;
+  .name,
+  .email {
+    width: 48%;
+    margin: 0;
+  }
+
+  .name,
+  .email,
+  .textarea {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  label {
+    display: contents;
   }
 
   textarea {
     padding: 16px;
-    width: 100%;
     height: 140px;
+  }
+
+  .textarea {
+    width: 100%;
   }
 
   /* FOOTER STYLES */
@@ -545,10 +597,6 @@ footer {
   h1,
   h2 {
     font-size: 80px;
-  }
-
-  a.button {
-    font-size: 0.8rem;
   }
 
   .see-project {
