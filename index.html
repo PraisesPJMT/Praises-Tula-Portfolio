@@ -21,7 +21,7 @@
             <a href="#">About</a>
             <a href="#">Contact</a>
         </nav>
-        <img src="/images/ic_menu.svg" alt="Menu Icon" class="header-icon menu-icon" />
+        <i class="header-icon menu-icon fa-solid fa-bars"></i>
     </header>
     <main>
         <!-- HEADLINE SECTION -->
@@ -42,7 +42,7 @@
         <section class="project p1">
             <img
               src="images/Rectangle_21.svg"
-              alt="Project 1"
+              alt="Coding using a laptop"
               class="project-image"
             />
             <div class="project-box pb1">
@@ -59,7 +59,7 @@
           </section>
           <!-- Project 02 -->
           <section class="project p2">
-              <img src="images/Rectangle_22.svg" alt="Project 1" class="project-image" />
+              <img src="images/Rectangle_22.svg" alt="MacBook Pro 16 laptop" class="project-image" />
               <div class="project-box pb2">
                   <h3 class="project-name">Project name goes here</h3>
                   <div class="language-container">
@@ -73,7 +73,7 @@
           </section>
           <!-- Project 03 -->
           <section class="project p3">
-              <img src="images/Rectangle_23.svg" alt="Project 1" class="project-image" />
+              <img src="images/Rectangle_23.svg" alt="Laptop smartphone screen" class="project-image" />
               <div class="project-box pb3">
                   <h3 class="project-name">Project name goes here</h3>
                   <div class="language-container">
@@ -87,7 +87,7 @@
           </section>
           <!-- Project 04 -->
           <section class="project p4">
-              <img src="images/Rectangle_24.svg" alt="Project 1" class="project-image" />
+              <img src="images/Rectangle_24.svg" alt="Laptop screen showing good user interface" class="project-image" />
               <div class="project-box pb4">
                   <h3 class="project-name">Project name goes here</h3>
                   <div class="language-container">
@@ -101,7 +101,7 @@
           </section>
           <!-- Project 05 -->
           <section class="project p5">
-              <img src="images/Rectangle_25.svg" alt="Project 1" class="project-image" />
+              <img src="images/Rectangle_25.svg" alt="Laptop and smartphone screen showing good user interface"  class="project-image" />
               <div class="project-box pb5">
                   <h3 class="project-name">Project name goes here</h3>
                   <div class="language-container">
@@ -115,7 +115,7 @@
           </section>
           <!-- Project 06 -->
           <section class="project p6">
-              <img src="images/Rectangle_26.svg" alt="Project 1" class="project-image" />
+              <img src="images/Rectangle_26.svg" alt="Laptop and smartphone screen showing good user interface" class="project-image" />
               <div class="project-box pb6">
                   <h3 class="project-name">Project name goes here</h3>
                   <div class="language-container">
@@ -193,9 +193,20 @@
                         I am interested in remote & freelance opportunities - especially ambitious or large projects. However, if you have other request or question, don't hesitate to use the form.
                     </p>
                     <form action="https://formspree.io/f/xlezygjj" method="POST">
-                        <input name="name" id="name" type="text" placeholder="Your name" maxlength="30" required/>
-                        <input name="email" id="email" type="email" placeholder="Your email" required/>
-                        <textarea id="message" cols="30" rows="10" maxlength="500" placeholder="Enter your message here..." required></textarea>
+                        <div class="input">
+                            <div class="name">
+                                <label for="name">Full Name</label>
+                                <input name="name" id="name" type="text" placeholder="Your name" maxlength="30" required/>
+                            </div>
+                            <div class="email">
+                                <label for="email">Email Address</label>
+                                <input name="email" id="email" type="email" placeholder="Your email" required/>
+                            </div>
+                        </div>
+                        <div class="textarea">
+                            <label for="message">Message</label>
+                            <textarea id="message" cols="30" rows="10" maxlength="500" placeholder="Enter your message here..." required></textarea>
+                        </div>
                         <button type="submit" class="button dark-button contact-button">Start collaboration</button>
                     </form>
                 </div>
