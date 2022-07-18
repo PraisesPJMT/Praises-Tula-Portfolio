@@ -33,16 +33,16 @@ menuClose.addEventListener('click', () => {
   navigationBar.style.display = 'none';
 });
 
-navs.forEach(function (nav) {
-  nav.addEventListener('click', function () {
+navs.forEach((nav) => {
+  nav.addEventListener('click', () => {
     header.style.height = '100px';
     header.style.background = 'url("images/image_geometry_1.svg") no-repeat';
     header.style.backgroundSize = '35.5%';
-  
+
     menuClose.style.display = 'none';
     menuIcon.style.float = 'right';
     menuIcon.style.display = 'inline';
-  
+
     navigationBar.style.display = 'none';
-  })
-})
+  });
+});
