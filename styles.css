@@ -59,8 +59,7 @@ button {
 }
 
 nav a {
-  font-size: 16px;
-  visibility: hidden;
+  font-size: 26px;
 }
 
 .about-list-heading,
@@ -88,9 +87,25 @@ header {
   height: 100px;
 }
 
-.menu-icon {
+nav {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+  gap: 25px;
+}
+
+.menu-close {
+  display: none;
+}
+
+.menu-icon,
+.menu-close {
   margin: 19px;
   float: right;
+  transform: scale(1.3);
+  color: #1a2236;
 }
 
 .headline {
@@ -375,6 +390,7 @@ footer {
 
   nav {
     display: flex;
+    flex-direction: row;
     gap: 50px;
   }
 
@@ -383,6 +399,7 @@ footer {
     animation-duration: 2s;
     animation-name: slidein;
     animation-direction: slidein;
+    font-size: 16px;
   }
 
   nav a:hover {
@@ -405,7 +422,8 @@ footer {
     transform: scale(1.1);
   }
 
-  .menu-icon {
+  .menu-icon,
+  .menu-close {
     visibility: hidden;
   }
 
