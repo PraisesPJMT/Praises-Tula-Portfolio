@@ -96,13 +96,13 @@ nav {
   gap: 25px;
 }
 
-.menu-close {
+i.menu-close {
   display: none;
 }
 
 .menu-icon,
 .menu-close {
-  margin: 19px;
+  margin: 25px;
   float: right;
   transform: scale(1.3);
   color: #1a2236;
