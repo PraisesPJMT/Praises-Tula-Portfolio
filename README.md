@@ -62,6 +62,11 @@ Here is the list of projects leading to the development of the project. In some 
 - Twitter: [@mjononoronald](https://twitter.com/Mjononoronald)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/ronald-mjonono-86365988)
 
+👤 **MohamedCAkE: Contributor**
+
+- GitHub: [@githubhandle](https://github.com/MohamedCK)
+- Twitter: [@twitterhandle](https://twitter.com/MohamedCK0)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/mohamed-abdulhakim-2868521b6/)
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
@@ -69,11 +74,6 @@ Contributions, issues, and feature requests are welcome!
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- 
-- 
 
 ## 📝 License
 

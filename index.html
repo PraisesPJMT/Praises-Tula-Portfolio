@@ -10,22 +10,26 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins&display=swap" rel="stylesheet" />
     <script src="https://kit.fontawesome.com/579b112cc6.js" crossorigin="anonymous"></script>
+    <script defer src="main.js"></script>
     <title>Praises Tula</title>
 </head>
 
 <body>
     <header>
+        <div class="header-icon">
+            <i class="menu-icon fa-solid fa-bars"></i>
+            <i class="menu-close fa-solid fa-xmark"></i>
+        </div>
         <nav>
-            <a href="#">Hello</a>
-            <a href="#">Portfolio</a>
-            <a href="#">About</a>
-            <a href="#">Contact</a>
+            <a href="#headline">Hello</a>
+            <a href="#project">Portfolio</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
         </nav>
-        <i class="header-icon menu-icon fa-solid fa-bars"></i>
     </header>
     <main>
         <!-- HEADLINE SECTION -->
-        <section class="headline">
+        <section class="headline" id="headline">
             <div class="headline-container">
                 <h1>Praises<br />Tula</h1>
                 <p>
@@ -35,7 +39,7 @@
             </div>
       </section>
       <!-- PROJECT SECTION -->
-      <section class="projects">
+      <section class="projects" id="project">
         <h2 class="project-heading" >Projects</h2>
         <div class="project-boxes">
             <!-- Project 01 -->
@@ -130,7 +134,7 @@
         </div>
         </section>
         <!-- ABOUT SECTION -->
-        <section class="about">
+        <section class="about" id="about">
             <div class="about-container">
                 <div class="about-note">
                     <h2>About</h2>
@@ -185,7 +189,7 @@
     </main>
     <footer>
            <!-- CONTACT FORM -->
-           <section class="contact-form">
+           <section class="contact-form" id="contact">
             <div class="contact-form-background">
                 <div class="contact-form-container">
                     <h2 class="contact-header">Get started</h2>
