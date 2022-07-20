@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins&display=swap" rel="stylesheet" />
     <script src="https://kit.fontawesome.com/579b112cc6.js" crossorigin="anonymous"></script>
     <script defer src="main.js"></script>
+    <script defer src="data.js"></script>
     <title>Praises Tula</title>
 </head>
 
@@ -56,9 +57,9 @@
                 <span class="language">Ruby on Rails</span>
                 <span class="language">JavaScript</span>
               </div>
-              <a href="#" class="button dark-button see-project"
-                >See this project <i class="fa-solid fa-arrow-right"></i
-              ></a>
+              <button type="button" class="button dark-button see-project"
+              data-work="0">See this project <i class="fa-solid fa-arrow-right"></i
+              ></button>
               </div>
           </section>
           <!-- Project 02 -->
@@ -71,8 +72,8 @@
                       <span class="language">Ruby on Rails</span>
                       <span class="language">JavaScript</span>
                   </div>
-                  <a href="#" class="button dark-button see-project">See this project <i class="fa-solid fa-arrow-right"></i
-              ></a>
+                  <button type="button" class="button dark-button see-project" data-work="1">See this project <i class="fa-solid fa-arrow-right"></i
+              ></button>
               </div>
           </section>
           <!-- Project 03 -->
@@ -85,8 +86,8 @@
                       <span class="language">Ruby on Rails</span>
                       <span class="language">JavaScript</span>
                   </div>
-                  <a href="#" class="button dark-button see-project">See this project <i class="fa-solid fa-arrow-right"></i
-              ></a>
+                  <button type="button" class="button dark-button see-project" data-work="2">See this project <i class="fa-solid fa-arrow-right"></i
+              ></button>
               </div>
           </section>
           <!-- Project 04 -->
@@ -99,8 +100,8 @@
                       <span class="language">Ruby on Rails</span>
                       <span class="language">JavaScript</span>
                   </div>
-                  <a href="#" class="button dark-button see-project">See this project <i class="fa-solid fa-arrow-right"></i
-              ></a>
+                  <button type="button" class="button dark-button see-project" data-work="3">See this project <i class="fa-solid fa-arrow-right"></i
+              ></button>
               </div>
           </section>
           <!-- Project 05 -->
@@ -113,8 +114,8 @@
                       <span class="language">Ruby on Rails</span>
                       <span class="language">JavaScript</span>
                   </div>
-                  <a href="#" class="button dark-button see-project">See this project <i class="fa-solid fa-arrow-right"></i
-              ></a>
+                  <button type="button" class="button dark-button see-project" data-work="4">See this project <i class="fa-solid fa-arrow-right"></i
+              ></button>
               </div>
           </section>
           <!-- Project 06 -->
@@ -127,11 +128,54 @@
                       <span class="language">Ruby on Rails</span>
                       <span class="language">JavaScript</span>
                   </div>
-                  <a href="#" class="button dark-button see-project">See this project <i class="fa-solid fa-arrow-right"></i
-              ></a>
+                  <button type="button" class="button dark-button see-project" data-work="5">See this project <i class="fa-solid fa-arrow-right"></i
+              ></button>
               </div>
           </section>
         </div>
+        <!-- PROJECT POPUP WINDOW -->
+        <div class="modal">
+            <div class="modal-container">
+                <i class="close fa-solid fa-xmark"></i>
+                <h3 class="modal-title">Project name goes here</h3>
+                <div class="d-language-container">
+                    <!-- <span class="d-language">HTML/CSS</span>
+                    <span class="d-language">Ruby on Rails</span>
+                    <span class="d-language">JavaScript</span> -->
+                </div>
+                <div class="dialog-image">
+                    <div class="d-ft-image">
+                        <img src="images/Rectangle_21.svg"
+              alt="Coding using a laptop"
+              class="d-image"/>
+                        <div class="arrows">
+                            <i class="arrow fa-solid fa-angle-left"></i>
+                            <i class="arrow fa-solid fa-angle-right"></i>
+                        </div>
+                    </div>
+                    <div class="other-project-images">
+                        <!-- <img src="images/Rectangle_22.svg" alt="MacBook Pro 16 laptop" class="min-image" />
+                        <img src="images/Rectangle_23.svg" alt="Laptop smartphone screen" class="min-image" />
+                        <img src="images/Rectangle_24.svg" alt="Laptop screen showing good user interface" class="min-image" />
+                        <img src="images/Rectangle_25.svg" alt="Laptop and smartphone screen showing good user interface"  class="min-image" />     -->
+                    </div>
+                </div>
+                <div class="d-bottom">
+                    <p class="modal-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi. <br><br>
+                        Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
+                    </p>
+                    <div class="explore">
+                        <a href="#" class="button secondary-button see-live">See live <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <a href="#" class="button secondary-button see-source">See source <i class="fa-brands fa-github"></i></a>  
+                    </div>
+                    <div class="project-nav">
+                        <a href="#" class="button secondary-light-button"><i class="fa-solid fa-arrow-left-long"></i>Previous project</a>
+                        <a href="#" class="button secondary-light-button">Next Project<i class="fa-solid fa-arrow-right-long"></i></a>
+                    </div>
+                </div>
+                </div>
+          </div>
         </section>
         <!-- ABOUT SECTION -->
         <section class="about" id="about">
