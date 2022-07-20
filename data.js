@@ -2,7 +2,6 @@ const openModal = document.querySelectorAll('.see-project');
 const modalWindow = document.querySelector('.modal');
 const closeModal = document.querySelector('.close');
 
-
 const data = [
   {
     title: 'Project 1 title goes here',
