@@ -1,5 +1,7 @@
 const openModal = document.querySelectorAll('.see-project');
 const modalWindow = document.querySelector('.modal');
+const closeModal = document.querySelector('.close');
+
 
 const data = [
   {
@@ -100,4 +102,8 @@ openModal.forEach((button) => {
     showModal(event.target.dataset.work);
     modalWindow.style.display = 'block';
   }, false);
+});
+
+closeModal.addEventListener('click', () => {
+  modalWindow.style.display = 'none';
 });
