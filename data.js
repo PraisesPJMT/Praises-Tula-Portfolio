@@ -66,7 +66,7 @@ const data = [
 ];
 
 function Languages(data, key, list = '') {
-  // eslint-disable-next-line no-restricted-syntax
+  /* eslint-disable-next-line no-restricted-syntax */
   for (const language in data[key].languages) {
     if (language) {
       list += `<span class="d-language">${data[key].languages[language]}</span>`;
@@ -76,7 +76,7 @@ function Languages(data, key, list = '') {
 }
 
 function OtherImages(data, key, list = '') {
-  // eslint-disable-next-line no-restricted-syntax
+  /* eslint-disable-next-line no-restricted-syntax */
   for (const image in data[key].otherImages) {
     if (image) {
       list += `<img src="${data[key].otherImages[image]}" alt="MacBook Pro 16 laptop" class="min-image" />`;
