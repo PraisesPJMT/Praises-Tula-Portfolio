@@ -157,6 +157,106 @@ i.menu-close {
   font-weight: 500;
 }
 
+/* POPUP STYLES */
+
+.modal {
+  background: #fff;
+  color: #1a2236;
+  padding: 20px;
+  display: none;
+  position: fixed;
+  top: 0;
+}
+
+.modal-container {
+  max-height: calc(100vh);
+  overflow-y: auto;
+}
+
+.close {
+  transform: scale(2);
+  position: fixed;
+  right: 10%;
+  top: 3%;
+  background: rgba(255, 255, 255, 0.3);
+  padding: 0 2px;
+  z-index: 1;
+}
+
+.modal-title {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.d-language-container {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.d-language {
+  background-color: #fff;
+  border: 1px solid #1a2236;
+  padding: 6px 15px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.dialog-image {
+  display: flex;
+  flex-direction: column;
+  margin: 25px 0;
+}
+
+.d-ft-image {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  position: relative;
+}
+
+.d-ft-image img {
+  width: 100%;
+  height: auto;
+}
+
+.arrows {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.arrow {
+  color: #fff;
+  transform: scale(2);
+  padding: 0 10px;
+}
+
+.other-project-images {
+  height: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.min-image {
+  width: 25%;
+}
+
+.explore {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  margin: 20px 0;
+}
+
+.project-nav {
+  display: none;
+}
+
 /* ABOUT STYLES */
 
 .about {
@@ -346,7 +446,6 @@ footer {
 
 .see-project {
   border: 1px #fff solid;
-  width: 178px;
   margin: 20px auto 0 0;
 }
 
@@ -356,6 +455,40 @@ footer {
 
 .contact-button {
   width: 100%;
+}
+
+.secondary-button {
+  background-color: #fff;
+  color: #1a2236;
+  border: 1px solid #1a2236;
+  padding: 15px;
+  width: 60%;
+  max-width: 246px;
+  margin: 15px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.secondary-button:hover {
+  background-color: #1a2236;
+  color: #fff;
+  border: none;
+  transform: scale(1.2);
+}
+
+.secondary-light-button {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  background-color: #fff;
+  color: #1a2236;
+  padding: 15px;
+}
+
+.secondary-light-button:hover {
+  transform: scale(1.5);
 }
 
 /* MEDIA QUERIES */
@@ -500,6 +633,62 @@ footer {
     display: none;
   }
 
+  /* DESKTOP POPUP STYLES */
+
+  .modal {
+    background: #1a2236;
+    color: #1a2236;
+    padding: 3rem;
+    display: none;
+    position: fixed;
+    top: 0;
+    width: 91%;
+  }
+
+  .modal-container {
+    background: #fff;
+    padding: 3rem;
+    max-height: calc(100vh);
+    overflow-y: auto;
+  }
+
+  .close {
+    transform: scale(4);
+    position: relative;
+    right: 0;
+    top: 10%;
+    z-index: 1;
+    float: right;
+  }
+
+  .modal-title {
+    font-size: 3.5rem;
+  }
+
+  .arrow {
+    transform: scale(5);
+    padding: 0 40px;
+  }
+
+  .d-bottom {
+    width: 90%;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  .explore {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    gap: 20px;
+  }
+
+  .project-nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+  }
+
   /* ABOUT STYLES */
   .about {
     display: flex;
@@ -609,6 +798,14 @@ footer {
     max-width: 254px;
     margin: none;
     float: left;
+  }
+
+  .secondary-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 0;
   }
 
   /* TYPOGRAPHY */
