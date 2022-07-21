@@ -312,6 +312,7 @@ i.menu-close {
 
 .contact-form {
   background: #f9f9fa;
+  margin-bottom: 30px;
 }
 
 .contact-form-background {
@@ -358,10 +359,10 @@ textarea {
   height: 112px;
 }
 
-input:valid,
+/* input:valid,
 textarea:valid {
   border: 2px solid #0f0;
-}
+} */
 
 label {
   display: none;
@@ -378,6 +379,14 @@ label {
 
 .name {
   margin-bottom: 20px;
+}
+
+.red-border {
+  color: #f00;
+  border: 2px solid #f00;
+  padding: 3px;
+  display: none;
+  text-align: center;
 }
 
 /* FOOTER STYLES */

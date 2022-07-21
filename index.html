@@ -10,8 +10,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins&display=swap" rel="stylesheet" />
     <script src="https://kit.fontawesome.com/579b112cc6.js" crossorigin="anonymous"></script>
-    <script defer src="main.js"></script>
-    <script defer src="data.js"></script>
+    <script defer src="javascript/main.js"></script>
+    <script defer src="javascript/data.js"></script>
+    <script defer src="javascript/formvalidation.js"></script>
     <title>Praises Tula</title>
 </head>
 
@@ -34,7 +35,7 @@
             <div class="headline-container">
                 <h1>Praises<br />Tula</h1>
                 <p>
-                    Hello! I am a software developer! I can help you build a product, feature or website. Taka a look of my works.If you like what you see and have a project you need coded, don’t hesitate and contact me.
+                    Hello! I am a software developer! I can help you build a product, feature or website. Take a look of my works.If you like what you see and have a project you need coded, don’t hesitate and contact me.
                 </p>
                 <a href="#" class="button dark-button start-collaboration">Start Collaboration</a>
             </div>
@@ -240,7 +241,7 @@
                     <p>
                         I am interested in remote & freelance opportunities - especially ambitious or large projects. However, if you have other request or question, don't hesitate to use the form.
                     </p>
-                    <form action="https://formspree.io/f/xlezygjj" method="POST">
+                    <form action="https://formspree.io/f/xlezygjj" method="POST" id="contact-form">
                         <div class="input">
                             <div class="name">
                                 <label for="name">Full Name</label>
@@ -254,6 +255,9 @@
                         <div class="textarea">
                             <label for="message">Message</label>
                             <textarea id="message" cols="30" rows="10" maxlength="500" placeholder="Enter your message here..." required></textarea>
+                        </div>
+                        <div class="error-message red-border">
+                            <p>Your email address should be in all lowercase</p>
                         </div>
                         <button type="submit" class="button dark-button contact-button">Start collaboration</button>
                     </form>
