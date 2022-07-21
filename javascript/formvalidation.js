@@ -6,6 +6,8 @@ function validateEmail(form) {
   if (emailInput.value !== emailInput.value.toLowerCase()) {
     form.preventDefault();
     errorMessage.style.display = 'block';
+  } else {
+    errorMessage.style.display = 'none';
   }
 }
 
