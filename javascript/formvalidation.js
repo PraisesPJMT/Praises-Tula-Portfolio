@@ -10,6 +10,10 @@ window.addEventListener('load', () => {
     nameInput.value = storedFormData.name;
     emailInput.value = storedFormData.email;
     messageInput.value = storedFormData.message;
+  } else {
+    nameInput.value = '';
+    emailInput.value = '';
+    messageInput.value = '';
   }
 });
 
